@@ -1,24 +1,24 @@
 #Getting Started
 
-## Welcome to the Azure Active Directory Preview Demonstration Application
+## Welcome to the Windows Windows Azure Active Directory Preview Demonstration Application
 
-This application has been written to provide you with a quick and easy way to set up your first application that connects seamlessly to Azure Active Directory. This demonstration application, written to run inside of Azure WebWorker role, will provide you with glipses in to the Preview release of two great technonologies described below. We've released all of the source code for this running example in GitHub under an Apache 2.0 license, so feel free to clone (or even better, fork!) and get this running in your own Vistual Studio environment.
+This application has been written to provide you with a quick and easy way to set up your first application that connects seamlessly to Windows Windows Azure Active Directory. This demonstration application, written to run inside of Azure WebWorker role, will provide you with glipses in to the Preview release of two great technonologies described below. We've released all of the source code for this running example in GitHub under an Apache 2.0 license, so feel free to clone (or even better, fork!) and get this running in your own Vistual Studio environment.
 
 ##The Technologies In This Demo
 
-This website will demonstrate the following technologies from the Azure Active Directory from Microsoft:
+This website will demonstrate the following technologies from the Windows Azure Active Directory from Microsoft:
 
 - Web Single Sign-In (SSO)
-- Access to Azure Active Directory through a RESTful Graph API
+- Access to Windows Azure Active Directory through a RESTful Graph API
 
 
-### Azure Active Directory WebSSO Preview
+### Windows Azure Active Directory WebSSO Preview
 
-With Azure Active Directory WebSSO, you will have the ability to seamlessly intergrate your application in to your customer's existing identity platform, while allowing them to use the same credentials they use in the office and online.
+With Windows Azure Active Directory WebSSO, you will have the ability to seamlessly intergrate your application in to your customer's existing identity platform, while allowing them to use the same credentials they use in the office and online.
 
-### Azure Active Directory Graph API Preview
+### Windows Azure Active Directory Graph API Preview
 
-With Azure Active Directory Graph API, you will have the ability to build data driven applications using a REST based API. You can use this REST API to query your customer's data, navigate relationships within their directory, and customize your applicaitons based on this data.
+With Windows Azure Active Directory Graph API, you will have the ability to build data driven applications using a REST based API. You can use this REST API to query your customer's data, navigate relationships within their directory, and customize your applicaitons based on this data.
 
 ### Important Note About The Preview
 
@@ -40,7 +40,7 @@ We have created a PowerShell script that automates much of this work for the ten
 
 ##### Audience URI varies based on tenant and is in spn: format
 
-When the Azure Active Directory developer preview issues a token for an application, the audience URI in the token includes the identifier of the application and the identifier of the tenant instead of just the identifier of the application. For a Windows Identity Foundation-based application to handle this tenant-varying audience URI, extension code to WIF is required, and has been supplied in the web SSO samples. Also, the audience URI is in spn: format instead of being the more familiar URL of the application. In a future release, Azure Active Directory will support the audience URI being the URL of the application and not have a tenant-varying component.
+When the Windows Azure Active Directory developer preview issues a token for an application, the audience URI in the token includes the identifier of the application and the identifier of the tenant instead of just the identifier of the application. For a Windows Identity Foundation-based application to handle this tenant-varying audience URI, extension code to WIF is required, and has been supplied in the web SSO samples. Also, the audience URI is in spn: format instead of being the more familiar URL of the application. In a future release, Windows Azure Active Directory will support the audience URI being the URL of the application and not have a tenant-varying component.
 
 ##### SAML Token has no AuthenticationStatement
 
