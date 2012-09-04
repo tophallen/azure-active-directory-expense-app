@@ -1,6 +1,6 @@
-#Getting Started
+﻿#Getting Started
 
-## Welcome to the Windows Windows Azure Active Directory Preview Demonstration Application
+## Welcome to the Windows Azure Active Directory Preview Demonstration Application
 
 This application has been written to provide you with a quick and easy way to set up your first application that connects seamlessly to Windows Windows Azure Active Directory. This demonstration application, written to run inside of Azure WebWorker role, will provide you with glipses in to the Preview release of two great technonologies described below. We've released all of the source code for this running example in GitHub under an Apache 2.0 license, so feel free to clone (or even better, fork!) and get this running in your own Vistual Studio environment.
 
